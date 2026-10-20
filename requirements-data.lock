@@ -1,0 +1,7 @@
+huggingface-hub==1.33.0
+hf-xet==1.6.0
+tokenizers==0.23.2
+numpy==2.5.3
+pyarrow==23.0.1
+safetensors==0.8.0
+pytest==9.1.1

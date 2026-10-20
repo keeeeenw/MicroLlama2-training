@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "state": "preparation_parallel_with_existing_two_source_training",
+  "planning_anchor": {
+    "step": 175639,
+    "tokens": 23000350931,
+    "manifest_sha256": "9859d65124f0123540c8b168cfe782badcba19d10affae7c3bd9a634b004d325",
+    "role": "historical_audit_and_conservative_preparation_budget_only"
+  },
+  "transition_checkpoint": "latest_complete_checkpoint_after_full_replacement_readiness",
+  "new_mixture_training_armed": false,
+  "pause_requires": [
+    "full_remaining_usable_source_coverage",
+    "frozen_disjoint_validation",
+    "tested_and_preflighted_state_preserving_launcher",
+    "live_armed_transition_worker",
+    "checksummed_readiness_receipt",
+    "protected_rollback_checkpoint"
+  ],
+  "final_tokens": 50000000000,
+  "preparation_budget_anchor_remaining_targets": 26999649069,
+  "weights_percent": {
+    "edu": 48,
+    "dclm": 32,
+    "cosmopedia": 15,
+    "finemath": 5
+  },
+  "new_source_preparation_targets": {
+    "cosmopedia": 4252444729,
+    "finemath": 1417481577
+  },
+  "coverage_margin_percent": 5,
+  "specialist_combined_selected_raw_cap_bytes": 125000000000,
+  "specialist_pilot_raw_cap_bytes": 5000000000,
+  "specialist_later_batch_raw_cap_bytes": 30000000000,
+  "free_space_reserve_gib": 100,
+  "charge_prior_specialist_acquisitions": true,
+  "operational_updates": 40,
+  "quality_pilot_total_new_targets": 250000000,
+  "maximum_update_targets": 131072,
+  "general_validation_regression_limit": 0.01,
+  "preserve_old_source_validation_baselines": true,
+  "new_source_validation_baseline": "verified_latest_transition_checkpoint",
+  "new_source_selection_uses_public_benchmarks": false,
+  "failed_or_uncertain_action": "hold_for_review",
+  "supersedes_candidate_search": "configs/science-mix-pilot.json"
+}

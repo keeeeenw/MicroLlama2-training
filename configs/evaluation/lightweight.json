@@ -1,0 +1,123 @@
+{
+  "documents": 16,
+  "max_characters_per_document": 1024,
+  "sequence_length": 512,
+  "cpu_threads": 2,
+  "max_new_tokens": 32,
+  "probes": [
+    {
+      "category": "grammar",
+      "prompt": "The keys on the table",
+      "choices": [
+        " are",
+        " is"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "grammar",
+      "prompt": "She walks to school every",
+      "choices": [
+        " days",
+        " day"
+      ],
+      "answer": 1
+    },
+    {
+      "category": "grammar",
+      "prompt": "Yesterday, he",
+      "choices": [
+        " walked",
+        " walks"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "grammar",
+      "prompt": "They have",
+      "choices": [
+        " was",
+        " been"
+      ],
+      "answer": 1
+    },
+    {
+      "category": "grammar",
+      "prompt": "This is an",
+      "choices": [
+        " apple",
+        " banana"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "grammar",
+      "prompt": "There are three",
+      "choices": [
+        " book",
+        " books"
+      ],
+      "answer": 1
+    },
+    {
+      "category": "knowledge",
+      "prompt": "The capital of France is",
+      "choices": [
+        " Paris",
+        " Rome"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "knowledge",
+      "prompt": "A triangle has",
+      "choices": [
+        " four",
+        " three"
+      ],
+      "answer": 1
+    },
+    {
+      "category": "knowledge",
+      "prompt": "Water freezes at zero degrees",
+      "choices": [
+        " Celsius",
+        " Fahrenheit"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "knowledge",
+      "prompt": "Plants absorb sunlight during",
+      "choices": [
+        " digestion",
+        " photosynthesis"
+      ],
+      "answer": 1
+    },
+    {
+      "category": "arithmetic",
+      "prompt": "Two plus two equals",
+      "choices": [
+        " four",
+        " five"
+      ],
+      "answer": 0
+    },
+    {
+      "category": "arithmetic",
+      "prompt": "Ten minus three equals",
+      "choices": [
+        " eight",
+        " seven"
+      ],
+      "answer": 1
+    }
+  ],
+  "generation_prompts": [
+    "Photosynthesis is the process by which",
+    "A triangle has",
+    "The water cycle describes",
+    "To calculate the area of a rectangle,"
+  ]
+}

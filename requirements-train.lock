@@ -1,0 +1,10 @@
+# Tested on Python 3.11; install PyTorch from its cu121 wheel index.
+torch==2.5.1+cu121
+transformers==4.57.6
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+numpy==1.26.4
+pyarrow==19.0.0
+safetensors==0.5.2
+pytest==8.3.4
+wandb==0.19.5

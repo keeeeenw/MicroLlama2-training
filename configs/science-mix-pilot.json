@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "pause_tokens": 23000000000,
+  "final_tokens": 50000000000,
+  "science_shares": [0.0, 0.025, 0.05],
+  "web_edu_share": 0.6,
+  "arm_new_targets": 50000000,
+  "operational_updates": 40,
+  "maximum_update_targets": 131072,
+  "selected_arm_quality_total_targets": 250000000,
+  "maximum_discarded_arm_targets": 100262144,
+  "maximum_selection_compute_targets": 150393216,
+  "science_coverage_margin": 0.05,
+  "general_validation_regression_limit": 0.01,
+  "minimum_science_relative_gain": 0.005,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 230050,
+  "selection_uses_public_benchmarks": false,
+  "unresolved_or_failed_gate_action": "hold_for_review",
+  "no_clear_winner_action": "hold_for_review",
+  "state": "planned_not_armed"
+}

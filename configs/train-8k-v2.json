@@ -1,0 +1,25 @@
+{
+  "model_config": "configs/model-338m.json",
+  "run_name": "fineweb-edu-338m-8k-boundary-v2",
+  "seed": 42,
+  "sequence_length": 8192,
+  "micro_batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "target_tokens": 10000000000,
+  "learning_rate": 0.0003,
+  "min_learning_rate": 3e-05,
+  "warmup_tokens": 100000000,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "grad_clip": 1.0,
+  "precision": "bf16",
+  "gradient_checkpointing": false,
+  "loss_chunk_size": 256,
+  "eval_every": 250,
+  "eval_batches": 8,
+  "save_every": 1000,
+  "loss_policy": "document-boundaries-v2"
+}

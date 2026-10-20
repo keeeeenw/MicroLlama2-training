@@ -1,0 +1,9 @@
+# Keep the scanner's complete default rule set. This one known-public tokenizer
+# SHA-256 is an artifact identity, not an API credential.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Published tokenizer SHA-256 identity"
+regexTarget = "match"
+regexes = ['df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd']

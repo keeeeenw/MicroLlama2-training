@@ -1,0 +1,527 @@
+{
+  "repo": "HuggingFaceTB/smollm-corpus",
+  "revision": "3ba9d605774198c5868892d7a8deda78031a781f",
+  "config": "cosmopedia-v2",
+  "files": [
+    {
+      "path": "cosmopedia-v2/train-00000-of-00104.parquet",
+      "bytes": 1174424341,
+      "sha256": "5a25721146377d6e7f288c244e991df93e672b8cc3e535fd4aac5da4cdb1491d"
+    },
+    {
+      "path": "cosmopedia-v2/train-00001-of-00104.parquet",
+      "bytes": 1175620980,
+      "sha256": "6d7662f05a7652ce0075e5986bd69161943baf640c15b6ef720cfaef11c4ae60"
+    },
+    {
+      "path": "cosmopedia-v2/train-00002-of-00104.parquet",
+      "bytes": 1177666049,
+      "sha256": "2c3ec2f6507548a1cea06b5d9da049ba885ff2610a39c5e63b9d3eda091eb5de"
+    },
+    {
+      "path": "cosmopedia-v2/train-00003-of-00104.parquet",
+      "bytes": 1174956442,
+      "sha256": "60cae193f3c0ca186d162ef237eb57dccbe5d8da26e8f7c8b93f374910963599"
+    },
+    {
+      "path": "cosmopedia-v2/train-00004-of-00104.parquet",
+      "bytes": 1176725376,
+      "sha256": "f9c962f2182049bdc28b4616527a4683f3d54d58404d37a5e240c30240da8efd"
+    },
+    {
+      "path": "cosmopedia-v2/train-00005-of-00104.parquet",
+      "bytes": 1177410933,
+      "sha256": "d080dcf75e284e56f0a2c3275998030fbbcca1786e1b8f19bf4169c23294dae7"
+    },
+    {
+      "path": "cosmopedia-v2/train-00006-of-00104.parquet",
+      "bytes": 1174894520,
+      "sha256": "9c75c4142c0cae4ee8da9dbfddbc5b73fe213a55530dcfac012e91ef6bd9560e"
+    },
+    {
+      "path": "cosmopedia-v2/train-00007-of-00104.parquet",
+      "bytes": 1177633443,
+      "sha256": "9d7683d3a60852f143c7b7b37ddd76929756edcc7ad30286e9159a90efdca1c1"
+    },
+    {
+      "path": "cosmopedia-v2/train-00008-of-00104.parquet",
+      "bytes": 1175707518,
+      "sha256": "76beaad7c585ac2445c00a0cb011e158421a77e01b0a03ee771f0a3a76d63d74"
+    },
+    {
+      "path": "cosmopedia-v2/train-00009-of-00104.parquet",
+      "bytes": 1176050550,
+      "sha256": "335e72c1ae49e5ba255ceb70393498b85e523c85d2a46cced9d58155e6da13b6"
+    },
+    {
+      "path": "cosmopedia-v2/train-00010-of-00104.parquet",
+      "bytes": 1177441226,
+      "sha256": "a2121a7260a914ea6ba6b79f1c0c315ee00263e0b67aa8ed1183e758d8a5ad50"
+    },
+    {
+      "path": "cosmopedia-v2/train-00011-of-00104.parquet",
+      "bytes": 1175694672,
+      "sha256": "685c2d5da4ddbb8ce671afe0be211042dbd3cd478d8e545c96e654790643baeb"
+    },
+    {
+      "path": "cosmopedia-v2/train-00012-of-00104.parquet",
+      "bytes": 1176233384,
+      "sha256": "54e801580cd75fa77567a26ec7a72227361f3f40efcee59b33df6875de5ec605"
+    },
+    {
+      "path": "cosmopedia-v2/train-00013-of-00104.parquet",
+      "bytes": 1177328908,
+      "sha256": "d03d136bb851de8ce3ee08ebf8822d84e24370d4ed5c81a18b32fbd4b002f41b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00014-of-00104.parquet",
+      "bytes": 1176822899,
+      "sha256": "8b6864512af1c26510dd360191b8531d354b49cccd06100d4ecda99cc80d081c"
+    },
+    {
+      "path": "cosmopedia-v2/train-00015-of-00104.parquet",
+      "bytes": 1177227322,
+      "sha256": "97c216426287121c37164756cfc93562d229ade65f984f70b5cdcdafe83e8355"
+    },
+    {
+      "path": "cosmopedia-v2/train-00016-of-00104.parquet",
+      "bytes": 1174685394,
+      "sha256": "2b0c17d994e432673d811cf00fc28a8cda43733533286150309e5faba7c44276"
+    },
+    {
+      "path": "cosmopedia-v2/train-00017-of-00104.parquet",
+      "bytes": 1177445389,
+      "sha256": "4a1ce3e706011a4c900f829154b4049839d683cef89c8d7dc39a9e41f029f65c"
+    },
+    {
+      "path": "cosmopedia-v2/train-00018-of-00104.parquet",
+      "bytes": 1177532742,
+      "sha256": "09b2e3f7a5a90612bfeda8e69b047ed9bb4811efa502b1d43740c6dd830b5c07"
+    },
+    {
+      "path": "cosmopedia-v2/train-00019-of-00104.parquet",
+      "bytes": 1175433217,
+      "sha256": "e3f50d1c325ccdc20df7d3a7fa0c714bd162c2dd2020cf98e404ef0553c0a736"
+    },
+    {
+      "path": "cosmopedia-v2/train-00020-of-00104.parquet",
+      "bytes": 1177571152,
+      "sha256": "a2d7506a82aed771f436b4e478e6a1c68106502849a188ec49e183a37213c2f0"
+    },
+    {
+      "path": "cosmopedia-v2/train-00021-of-00104.parquet",
+      "bytes": 1175644487,
+      "sha256": "3cfd8ce47462c5ea1a16d5f999fffeb94626e4782e41aca17fb6fbcbf6467bd7"
+    },
+    {
+      "path": "cosmopedia-v2/train-00022-of-00104.parquet",
+      "bytes": 1175277891,
+      "sha256": "744015e5374e954b221f8ff0d99471c624544313b12e582f223b4934c2d248bd"
+    },
+    {
+      "path": "cosmopedia-v2/train-00023-of-00104.parquet",
+      "bytes": 1178240074,
+      "sha256": "e0f47df3a7cada2d2dcebfbc8b556edc1faec138f04d697040a592d299028b81"
+    },
+    {
+      "path": "cosmopedia-v2/train-00024-of-00104.parquet",
+      "bytes": 1175216602,
+      "sha256": "b2f2fea3acdd832f11689550681237a18a1d02d5228a244b7b2f064d53c867dc"
+    },
+    {
+      "path": "cosmopedia-v2/train-00025-of-00104.parquet",
+      "bytes": 1177132871,
+      "sha256": "f8346628272980ecf2b8fb069296aaa487d46cdb3a1c21b28f2e37b2b0c95120"
+    },
+    {
+      "path": "cosmopedia-v2/train-00026-of-00104.parquet",
+      "bytes": 1177939332,
+      "sha256": "efee1d27bf167ea3fcca64fe335ef531b1f4a9f97abcb46e0a46ae1f3c508407"
+    },
+    {
+      "path": "cosmopedia-v2/train-00027-of-00104.parquet",
+      "bytes": 1176468135,
+      "sha256": "813cbf7ec1283c61b311b69c82a4e4ef012facf8a76ee139a92a8a097e8b51b2"
+    },
+    {
+      "path": "cosmopedia-v2/train-00028-of-00104.parquet",
+      "bytes": 1177381687,
+      "sha256": "d9439beaed1e5e1c6a66d7600efedcc26cbbc50831a8ac1b1d2f3e885f070b4b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00029-of-00104.parquet",
+      "bytes": 1174864009,
+      "sha256": "a63ae2cf340e83564f3050561cf505b1f27e0ea2ea7400706fd73a1b8eec3489"
+    },
+    {
+      "path": "cosmopedia-v2/train-00030-of-00104.parquet",
+      "bytes": 1176491589,
+      "sha256": "53d0b6755d1164bd48e6bcb2195e0cb47fbaf09b383e6fb4932df6ac13359d0b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00031-of-00104.parquet",
+      "bytes": 1176200164,
+      "sha256": "53d027d0aecc9a896b2d201608fa675d36b84844c5f4b4459b876e9397fdd76b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00032-of-00104.parquet",
+      "bytes": 1175870456,
+      "sha256": "2d0b2cce00e7e1d4845d4997c507cad3df1fab7c5a38913052da1e5afade9709"
+    },
+    {
+      "path": "cosmopedia-v2/train-00033-of-00104.parquet",
+      "bytes": 1177666287,
+      "sha256": "b571880416a5385a4b33d036b5e013a60265a450682f52519c547279cdd8b872"
+    },
+    {
+      "path": "cosmopedia-v2/train-00034-of-00104.parquet",
+      "bytes": 1175159100,
+      "sha256": "f592e2be64396ee86cb7a2b7505d8ea68ac8f00eea82f623750f4ec6fa0e246e"
+    },
+    {
+      "path": "cosmopedia-v2/train-00035-of-00104.parquet",
+      "bytes": 1175618490,
+      "sha256": "dc368024be9892642e473388cf1dea5e3989676e60cdb435194a7e39f4c389b6"
+    },
+    {
+      "path": "cosmopedia-v2/train-00036-of-00104.parquet",
+      "bytes": 1177786572,
+      "sha256": "bd6a5e66892a2184b081d5f09547035910f3672880f3252d001a32af3683b3b7"
+    },
+    {
+      "path": "cosmopedia-v2/train-00037-of-00104.parquet",
+      "bytes": 1176413760,
+      "sha256": "f5ae428775eba8526dc0e0875e1e152ec9889ca587d601d34b7cf8a38099f4ec"
+    },
+    {
+      "path": "cosmopedia-v2/train-00038-of-00104.parquet",
+      "bytes": 1177275655,
+      "sha256": "12edd356ada9c952b670f1358bef21dd0ce9c2924cf688915fb000c574194fc3"
+    },
+    {
+      "path": "cosmopedia-v2/train-00039-of-00104.parquet",
+      "bytes": 1177961087,
+      "sha256": "433893850217fc8988f995722a2b0b9930aae9b5b8cf092be8f4b5255a6579e0"
+    },
+    {
+      "path": "cosmopedia-v2/train-00040-of-00104.parquet",
+      "bytes": 1176559290,
+      "sha256": "890ac6eb4155189e6c2b95affc0cb1e5db261848fc89c284dafba102cedf1bba"
+    },
+    {
+      "path": "cosmopedia-v2/train-00041-of-00104.parquet",
+      "bytes": 1178127898,
+      "sha256": "b9c2eaac20c64d641e9e87b59fda6eca987cf50f294dfd92516e67174c62ae16"
+    },
+    {
+      "path": "cosmopedia-v2/train-00042-of-00104.parquet",
+      "bytes": 1175785060,
+      "sha256": "54cebcd5035e892a032d45b2f78f4cd897bc2eb1c5ad98a1cf5ce707b16590e8"
+    },
+    {
+      "path": "cosmopedia-v2/train-00043-of-00104.parquet",
+      "bytes": 1176476896,
+      "sha256": "b962b145f1d040a36e86322055fb2e1e2a71b6d05a48817190659782d9dd8ae2"
+    },
+    {
+      "path": "cosmopedia-v2/train-00044-of-00104.parquet",
+      "bytes": 1176607232,
+      "sha256": "9a010690923fcd1eb4ee57715568d079ffc4e9eb59b5754dbaaefc6d67ca5f77"
+    },
+    {
+      "path": "cosmopedia-v2/train-00045-of-00104.parquet",
+      "bytes": 1175315973,
+      "sha256": "83d582cf63d7de45dd74694ff05d0ceab4b5956844c1760f8bd3b0d056eacd67"
+    },
+    {
+      "path": "cosmopedia-v2/train-00046-of-00104.parquet",
+      "bytes": 1176685596,
+      "sha256": "9072f5e954d8cce842751b1ec511652321203a12380986e578e37b40d86173e3"
+    },
+    {
+      "path": "cosmopedia-v2/train-00047-of-00104.parquet",
+      "bytes": 1175664959,
+      "sha256": "c2d443ac8040a26e68a338b558deab09a0a6ec7c4a3fb4e948a55bea579b9f2b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00048-of-00104.parquet",
+      "bytes": 1176394240,
+      "sha256": "c5468c749c247ac2030ce2cbdc7f03b9e166e70c6f9e0b637e1fe91f78b51862"
+    },
+    {
+      "path": "cosmopedia-v2/train-00049-of-00104.parquet",
+      "bytes": 1177287095,
+      "sha256": "c83c1d44ff284c3f62cf8a8c5cdf52d7883ca4d1b9d15a83d3b1a9930e2c9f6c"
+    },
+    {
+      "path": "cosmopedia-v2/train-00050-of-00104.parquet",
+      "bytes": 1175924250,
+      "sha256": "40f736f29f873bc6217248d08ab5b357016202a21ad6cfed4855993a4ff48b0a"
+    },
+    {
+      "path": "cosmopedia-v2/train-00051-of-00104.parquet",
+      "bytes": 1176621119,
+      "sha256": "2e28e5895a7154799a1875059c54379c199615bfd8b8eb02d0ba1438ceed3580"
+    },
+    {
+      "path": "cosmopedia-v2/train-00052-of-00104.parquet",
+      "bytes": 1177574681,
+      "sha256": "58bd3845daee2a873b897a35fb204bf7913069ee57ce29e7b618811385a110a1"
+    },
+    {
+      "path": "cosmopedia-v2/train-00053-of-00104.parquet",
+      "bytes": 1176395505,
+      "sha256": "746e153f9f197faed4f8b1106ffed649728c333ea8e64fd85a4cecd6c8267847"
+    },
+    {
+      "path": "cosmopedia-v2/train-00054-of-00104.parquet",
+      "bytes": 1178553736,
+      "sha256": "c1d844f528d89ca72391f5f91f6d5732080c6b41e75354c6825311636246613f"
+    },
+    {
+      "path": "cosmopedia-v2/train-00055-of-00104.parquet",
+      "bytes": 1175111619,
+      "sha256": "edc603e623039f5066f4b99cdb26acb9f0f2877b0b30dd4694f930747d309671"
+    },
+    {
+      "path": "cosmopedia-v2/train-00056-of-00104.parquet",
+      "bytes": 1177736447,
+      "sha256": "aafd9989366017bb2a47ce4ee67e375b12fb02daf8cba343ae1099a5f9fe9ac0"
+    },
+    {
+      "path": "cosmopedia-v2/train-00057-of-00104.parquet",
+      "bytes": 1177030306,
+      "sha256": "0ac9a4c2b9faaa5368f8a93b1247ea1af025f33ce6e97b8f43953363b3751a7f"
+    },
+    {
+      "path": "cosmopedia-v2/train-00058-of-00104.parquet",
+      "bytes": 1174526709,
+      "sha256": "1a672a44e013caf7989deab521406570d80df8b4af5944d95c5fa648097be787"
+    },
+    {
+      "path": "cosmopedia-v2/train-00059-of-00104.parquet",
+      "bytes": 1176957352,
+      "sha256": "46794144bfae7a7846e88e50a8322c7188615e48d1fbc678caddb4e77d006a91"
+    },
+    {
+      "path": "cosmopedia-v2/train-00060-of-00104.parquet",
+      "bytes": 1176163740,
+      "sha256": "ff2a2856f8344b7d8d2c02ae043d1d6505fbf57c51080ebeab7aeff9d35a8b00"
+    },
+    {
+      "path": "cosmopedia-v2/train-00061-of-00104.parquet",
+      "bytes": 1176164245,
+      "sha256": "4b0a44457590430ec82e040bac0f4b7b9da2920cd3eda8734a5b7dd3c4bae589"
+    },
+    {
+      "path": "cosmopedia-v2/train-00062-of-00104.parquet",
+      "bytes": 1178487202,
+      "sha256": "364fd6acefad8ca27a70f409c15ead246e3e970af931d3ec145180a889637ca7"
+    },
+    {
+      "path": "cosmopedia-v2/train-00063-of-00104.parquet",
+      "bytes": 1175320841,
+      "sha256": "925552508e9cd3b7c99bffddabcf06e5eec91794274359dc5523b7da885e60a2"
+    },
+    {
+      "path": "cosmopedia-v2/train-00064-of-00104.parquet",
+      "bytes": 1175623306,
+      "sha256": "a1c7337541478db4a5460f54b5bf4b3f355be6e7095025d92163725af3cead69"
+    },
+    {
+      "path": "cosmopedia-v2/train-00065-of-00104.parquet",
+      "bytes": 1178610052,
+      "sha256": "c27d5544fa805983118168b62dcbd840f8b4506649e64d013e8053d562697770"
+    },
+    {
+      "path": "cosmopedia-v2/train-00066-of-00104.parquet",
+      "bytes": 1176069684,
+      "sha256": "070d4f2cb2d991a6c53de9105a9afeda92876fe786106c666831a33fcdb8d773"
+    },
+    {
+      "path": "cosmopedia-v2/train-00067-of-00104.parquet",
+      "bytes": 1178173323,
+      "sha256": "6404763353b691750199f7f210139efe5f14e06378867d524e341a0042aa85ad"
+    },
+    {
+      "path": "cosmopedia-v2/train-00068-of-00104.parquet",
+      "bytes": 1174971002,
+      "sha256": "b6ff7f71891bb7d41045635ec8f366ddba6470225ed0d768a44e5b604b309b14"
+    },
+    {
+      "path": "cosmopedia-v2/train-00069-of-00104.parquet",
+      "bytes": 1175988988,
+      "sha256": "66969cb9c969a33c5bfe4be848dcf4489d9c05e972d309425c9656a8cfa53c8d"
+    },
+    {
+      "path": "cosmopedia-v2/train-00070-of-00104.parquet",
+      "bytes": 1177952328,
+      "sha256": "b1ce5c5f3769df303477a0d8bb32494639c3b40c351cbf8b39cae4b7053b45a1"
+    },
+    {
+      "path": "cosmopedia-v2/train-00071-of-00104.parquet",
+      "bytes": 1175697904,
+      "sha256": "9d7fce770bd3abdcde191afb0338f8dfadc9edbba1b671baca603e11a40ff88d"
+    },
+    {
+      "path": "cosmopedia-v2/train-00072-of-00104.parquet",
+      "bytes": 1177647832,
+      "sha256": "1704bc31ef3c6bc88f0e362eb1421820ce0196eaa33dbee1f1c5085ad2382204"
+    },
+    {
+      "path": "cosmopedia-v2/train-00073-of-00104.parquet",
+      "bytes": 1176449051,
+      "sha256": "c04d9a235c604ae9c2edc112d34d8931104240ec3439b92c9059edc1d5f5fabf"
+    },
+    {
+      "path": "cosmopedia-v2/train-00074-of-00104.parquet",
+      "bytes": 1174888178,
+      "sha256": "569a800a9fc674507199e6c2e6bbe8c309456b0b41ee3f518820c2bc23558f7d"
+    },
+    {
+      "path": "cosmopedia-v2/train-00075-of-00104.parquet",
+      "bytes": 1177503249,
+      "sha256": "54ab0ab3cd12f896d1eccc5e9fb8de84a70b305e39383323d601d3b5446c4063"
+    },
+    {
+      "path": "cosmopedia-v2/train-00076-of-00104.parquet",
+      "bytes": 1175981088,
+      "sha256": "92e2eb577ddeab43f05adcf0fcd2760b3bb41df32e7edafd339c717b4aed4a58"
+    },
+    {
+      "path": "cosmopedia-v2/train-00077-of-00104.parquet",
+      "bytes": 1176754872,
+      "sha256": "b29d6af0e498b198a1c093a6869f9d6e20f612c31eb6cf0d1c5f9f045afe1047"
+    },
+    {
+      "path": "cosmopedia-v2/train-00078-of-00104.parquet",
+      "bytes": 1174604911,
+      "sha256": "beb5b2c9e8d1c6a4cea292f69d806f438892d671ae47a6f40fc35b7024855777"
+    },
+    {
+      "path": "cosmopedia-v2/train-00079-of-00104.parquet",
+      "bytes": 1177011979,
+      "sha256": "19b0e93f3bdc0e776cc0bd5322029aa9af7c8ee912bde4829bcdf6a1e3964cc9"
+    },
+    {
+      "path": "cosmopedia-v2/train-00080-of-00104.parquet",
+      "bytes": 1177193411,
+      "sha256": "2f484f9fe7d09b952b381cae3530eb8f71fda106f3493c02529296bec21f082a"
+    },
+    {
+      "path": "cosmopedia-v2/train-00081-of-00104.parquet",
+      "bytes": 1175352789,
+      "sha256": "827a569fc342b556127d813ec5972b1bac1566eb1c335147cf00abdb1e506c26"
+    },
+    {
+      "path": "cosmopedia-v2/train-00082-of-00104.parquet",
+      "bytes": 1177345390,
+      "sha256": "0c499832acd9991702899242f9f5a35c8563ea0c88fda54487092fc88fc6273f"
+    },
+    {
+      "path": "cosmopedia-v2/train-00083-of-00104.parquet",
+      "bytes": 1176860937,
+      "sha256": "5ccc65809bf4ae643d1868ebc65044309fd37bf9e14edc90d0c6f584aba770b9"
+    },
+    {
+      "path": "cosmopedia-v2/train-00084-of-00104.parquet",
+      "bytes": 1176220310,
+      "sha256": "2b9bed46abff6d10caf1ebdfc74c27adffc74a2e3dc70f405b7c1faceb4b4554"
+    },
+    {
+      "path": "cosmopedia-v2/train-00085-of-00104.parquet",
+      "bytes": 1177797537,
+      "sha256": "61f79264fcf699d2dda27b2aa966f9d2dfc49dd94779b9c2ea15e452ec676f51"
+    },
+    {
+      "path": "cosmopedia-v2/train-00086-of-00104.parquet",
+      "bytes": 1176242767,
+      "sha256": "78ce8aed0ff688aff2ace46183c5f888f22becd7207cf8c5d6277d9978b393e5"
+    },
+    {
+      "path": "cosmopedia-v2/train-00087-of-00104.parquet",
+      "bytes": 1176238352,
+      "sha256": "32cee305881e43814ae187a1e3e577ff635a0de3f530b0b2bb51ab998e38c833"
+    },
+    {
+      "path": "cosmopedia-v2/train-00088-of-00104.parquet",
+      "bytes": 1177427387,
+      "sha256": "0c2b4d7f39a75370128f69a68b722315b7a913a2b9a9bd18510e6ca89cac1716"
+    },
+    {
+      "path": "cosmopedia-v2/train-00089-of-00104.parquet",
+      "bytes": 1176729997,
+      "sha256": "919e0a71e0205d5eadaa08d31506eb817d857d5fc1c57fbb12da2ab7b5f5f01c"
+    },
+    {
+      "path": "cosmopedia-v2/train-00090-of-00104.parquet",
+      "bytes": 1178079782,
+      "sha256": "7fd0988940f2e2ecfc57bfdc526b03c7853e996b1b3966aa80182cfafd732a20"
+    },
+    {
+      "path": "cosmopedia-v2/train-00091-of-00104.parquet",
+      "bytes": 1175536802,
+      "sha256": "f168e7a426bf6d43df2b7c893212ab1b84d8f0f348a81f9692ec015342be7b56"
+    },
+    {
+      "path": "cosmopedia-v2/train-00092-of-00104.parquet",
+      "bytes": 1176306049,
+      "sha256": "8200c20dd1547f236b8da80560069c660b28086e1373c23829fa7293aa535330"
+    },
+    {
+      "path": "cosmopedia-v2/train-00093-of-00104.parquet",
+      "bytes": 1177409071,
+      "sha256": "7d1b3edae1c4e19865f26a9fc1d80f62f93d2634cf87cd2ce8cfad318eb58dcb"
+    },
+    {
+      "path": "cosmopedia-v2/train-00094-of-00104.parquet",
+      "bytes": 1175418058,
+      "sha256": "be5da4e0a7547a861625a38e81912f932dd735173474eb2fe7afed54380f01a3"
+    },
+    {
+      "path": "cosmopedia-v2/train-00095-of-00104.parquet",
+      "bytes": 1176773026,
+      "sha256": "51e55465b009994a5a0d2302586e9a67a48ba7d7a3331a9261fb44819e4c401b"
+    },
+    {
+      "path": "cosmopedia-v2/train-00096-of-00104.parquet",
+      "bytes": 1176422905,
+      "sha256": "25cb36babeb39a95857b18cb723166ac73b4e6553c4ffe9acad54a87c2a048ca"
+    },
+    {
+      "path": "cosmopedia-v2/train-00097-of-00104.parquet",
+      "bytes": 1175622429,
+      "sha256": "9993671ea04820e54fe39238f5f6af08b0362ae0c445c97702b84baad3708ead"
+    },
+    {
+      "path": "cosmopedia-v2/train-00098-of-00104.parquet",
+      "bytes": 1177578584,
+      "sha256": "d73a65c77a2b8ed04c5dd4016caf437e3871122b372f3a27ece51733c620689e"
+    },
+    {
+      "path": "cosmopedia-v2/train-00099-of-00104.parquet",
+      "bytes": 1176534717,
+      "sha256": "fede18803ae2e3eb1a3e59645c008333675e56c1500912996719a7994088bead"
+    },
+    {
+      "path": "cosmopedia-v2/train-00100-of-00104.parquet",
+      "bytes": 1175387834,
+      "sha256": "ef00f8903374596eb649ab2f0e44dc780ba45cff0369982b483e9ad4e4480729"
+    },
+    {
+      "path": "cosmopedia-v2/train-00101-of-00104.parquet",
+      "bytes": 1178770635,
+      "sha256": "e30de72359d3c9a9b0495ec39a396d1768d1f9b5071f2e2edbb57ad3d303407c"
+    },
+    {
+      "path": "cosmopedia-v2/train-00102-of-00104.parquet",
+      "bytes": 1176765108,
+      "sha256": "6493d76632745f86c8407593bb07724f88422a3aeace3599758f8e6fd80341f1"
+    },
+    {
+      "path": "cosmopedia-v2/train-00103-of-00104.parquet",
+      "bytes": 1176609391,
+      "sha256": "6f8325cce286fc90aa937c698d19be3c2468a58778ba4a9eaa3b7f5e2a8e3f64"
+    }
+  ]
+}

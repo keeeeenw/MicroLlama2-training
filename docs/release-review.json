@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Curated clean-history NVIDIA training release; not the original operational repository",
+  "gitleaks_version": "8.30.1",
+  "confirmed_credentials_detected": 0,
+  "gitleaks_allowlist": "Exactly one known-public tokenizer SHA-256; all default rules remain enabled",
+  "personal_paths_and_original_server_tracking_identifiers_detected": 0,
+  "tests": "219 passed, 6 skipped in 35.75s",
+  "runtime_test_platform": "macOS CPU; PyTorch 2.9.1 / Transformers 4.57.6 / W&B 0.19.5",
+  "cuda_qualification_performed_for_this_export": false,
+  "dataset_downloaded_for_this_export": false,
+  "full_50b_replay_performed_for_this_export": false,
+  "historical_receipts_and_private_history_included": false,
+  "public_author_metadata": "Zixiao Ken Wang; public upstream citations retained",
+  "documentation": "Only first 10B automated; actual three-stage history and strict restore requirements documented",
+  "scanner_limit": "No scan can guarantee absence of every form of private information",
+  "files_before_review_json": 127
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "future_weights": {
+    "edu": 0.48,
+    "dclm": 0.32,
+    "cosmopedia": 0.15,
+    "finemath": 0.05
+  },
+  "sequence_length": 8192,
+  "final_tokens": 50000000000,
+  "old_source_selection": "configs/data-recipes/edu-8k-engram.json",
+  "prepare_state_sha256": "6392803322075fa1ba8affcd9ed5ac6dcd2b2d220e89ffea93351c5e9bc5475a",
+  "new_source_pins": {
+    "cosmopedia": {
+      "config": "cosmopedia-v2",
+      "repo": "HuggingFaceTB/smollm-corpus",
+      "revision": "3ba9d605774198c5868892d7a8deda78031a781f"
+    },
+    "finemath": {
+      "config": "finemath-4plus",
+      "metadata": {
+        "document_count": 6699493,
+        "download_bytes": 18365184633,
+        "file_count": 64,
+        "files_canonical_sha256": "3f08a955d1208d179f9fe3c6b80abb48672aa9b3253f32573d7d3402fd704f1e",
+        "published_token_count": 9600000000,
+        "published_tokenizer": "Llama",
+        "schema": {
+          "char_count": "int32",
+          "content_mime_type": "string",
+          "crawl": "string",
+          "fetch_time": "int64",
+          "int_score": "int64",
+          "language": "string",
+          "language_score": "float64",
+          "metadata": "string",
+          "score": "float64",
+          "snapshot_type": "string",
+          "text": "string",
+          "token_count": "int32",
+          "url": "string",
+          "warc_filename": "string",
+          "warc_record_length": "int32",
+          "warc_record_offset": "int32"
+        },
+        "source_urls": {
+          "dataset_card": "https://huggingface.co/datasets/HuggingFaceTB/finemath/blob/e92b25a616738fe95dc186b64dfb19f9c8525594/README.md",
+          "dataset_info": "https://datasets-server.huggingface.co/info?dataset=HuggingFaceTB%2Ffinemath&config=finemath-4plus",
+          "repository_metadata": "https://huggingface.co/api/datasets/HuggingFaceTB/finemath/revision/e92b25a616738fe95dc186b64dfb19f9c8525594?blobs=true"
+        },
+        "split": "train"
+      },
+      "repo": "HuggingFaceTB/finemath",
+      "revision": "e92b25a616738fe95dc186b64dfb19f9c8525594"
+    }
+  },
+  "new_source_selected_shards": [
+    {
+      "batch": 0,
+      "bytes": 1175707518,
+      "path": "cosmopedia-v2/train-00008-of-00104.parquet",
+      "sequence": 1,
+      "sha256": "76beaad7c585ac2445c00a0cb011e158421a77e01b0a03ee771f0a3a76d63d74",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 0,
+      "bytes": 286267316,
+      "path": "finemath-4plus/train-00000-of-00064.parquet",
+      "sequence": 2,
+      "sha256": "5d0b26114b4cf309c82a4ba8f6f45857480b27812e23a46b61b45e8bbed61fe5",
+      "source": "finemath"
+    },
+    {
+      "batch": 0,
+      "bytes": 1176050550,
+      "path": "cosmopedia-v2/train-00009-of-00104.parquet",
+      "sequence": 3,
+      "sha256": "335e72c1ae49e5ba255ceb70393498b85e523c85d2a46cced9d58155e6da13b6",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 0,
+      "bytes": 288474354,
+      "path": "finemath-4plus/train-00001-of-00064.parquet",
+      "sequence": 4,
+      "sha256": "4f38efdb251638c1a71be4ed380119bdd9966b1d6f200f6ff637e4768cc3930c",
+      "source": "finemath"
+    },
+    {
+      "batch": 0,
+      "bytes": 1177441226,
+      "path": "cosmopedia-v2/train-00010-of-00104.parquet",
+      "sequence": 5,
+      "sha256": "a2121a7260a914ea6ba6b79f1c0c315ee00263e0b67aa8ed1183e758d8a5ad50",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 0,
+      "bytes": 287634720,
+      "path": "finemath-4plus/train-00002-of-00064.parquet",
+      "sequence": 6,
+      "sha256": "aed5a2aed72e2683c6c967f669b12214c3a2370738a75b83fb92f6194217ab04",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1175694672,
+      "path": "cosmopedia-v2/train-00011-of-00104.parquet",
+      "sequence": 7,
+      "sha256": "685c2d5da4ddbb8ce671afe0be211042dbd3cd478d8e545c96e654790643baeb",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1176233384,
+      "path": "cosmopedia-v2/train-00012-of-00104.parquet",
+      "sequence": 8,
+      "sha256": "54e801580cd75fa77567a26ec7a72227361f3f40efcee59b33df6875de5ec605",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1177328908,
+      "path": "cosmopedia-v2/train-00013-of-00104.parquet",
+      "sequence": 9,
+      "sha256": "d03d136bb851de8ce3ee08ebf8822d84e24370d4ed5c81a18b32fbd4b002f41b",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 284689405,
+      "path": "finemath-4plus/train-00003-of-00064.parquet",
+      "sequence": 10,
+      "sha256": "b20b6da635493e3c7e151880db612bdf1bab2e6bc2fe87ed5cd21910f590aada",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1176822899,
+      "path": "cosmopedia-v2/train-00014-of-00104.parquet",
+      "sequence": 11,
+      "sha256": "8b6864512af1c26510dd360191b8531d354b49cccd06100d4ecda99cc80d081c",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 284684820,
+      "path": "finemath-4plus/train-00004-of-00064.parquet",
+      "sequence": 12,
+      "sha256": "9644be6589159f9ab85a147f71a48b4ea40ed712cb7c7b5b42bf91b1bb844973",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1177227322,
+      "path": "cosmopedia-v2/train-00015-of-00104.parquet",
+      "sequence": 13,
+      "sha256": "97c216426287121c37164756cfc93562d229ade65f984f70b5cdcdafe83e8355",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1174685394,
+      "path": "cosmopedia-v2/train-00016-of-00104.parquet",
+      "sequence": 14,
+      "sha256": "2b0c17d994e432673d811cf00fc28a8cda43733533286150309e5faba7c44276",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 284773965,
+      "path": "finemath-4plus/train-00005-of-00064.parquet",
+      "sequence": 15,
+      "sha256": "bc0e109357245f5bf91c956ec98e7d8f88e6356c08b25196e8760fe5839b2f99",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1177445389,
+      "path": "cosmopedia-v2/train-00017-of-00104.parquet",
+      "sequence": 16,
+      "sha256": "4a1ce3e706011a4c900f829154b4049839d683cef89c8d7dc39a9e41f029f65c",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1177532742,
+      "path": "cosmopedia-v2/train-00018-of-00104.parquet",
+      "sequence": 17,
+      "sha256": "09b2e3f7a5a90612bfeda8e69b047ed9bb4811efa502b1d43740c6dd830b5c07",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 286407909,
+      "path": "finemath-4plus/train-00006-of-00064.parquet",
+      "sequence": 18,
+      "sha256": "7afa1e173e27a492e0527fc82eb8859ff0040b79eae9aa39851c9b57aad0c95d",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1175433217,
+      "path": "cosmopedia-v2/train-00019-of-00104.parquet",
+      "sequence": 19,
+      "sha256": "e3f50d1c325ccdc20df7d3a7fa0c714bd162c2dd2020cf98e404ef0553c0a736",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 286615349,
+      "path": "finemath-4plus/train-00007-of-00064.parquet",
+      "sequence": 20,
+      "sha256": "b63045b1d32f7b10664e5e8cea9a4dfcd972cbc92e3d6eb9aa56c677ea9863b7",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1177571152,
+      "path": "cosmopedia-v2/train-00020-of-00104.parquet",
+      "sequence": 21,
+      "sha256": "a2d7506a82aed771f436b4e478e6a1c68106502849a188ec49e183a37213c2f0",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1175644487,
+      "path": "cosmopedia-v2/train-00021-of-00104.parquet",
+      "sequence": 22,
+      "sha256": "3cfd8ce47462c5ea1a16d5f999fffeb94626e4782e41aca17fb6fbcbf6467bd7",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 287847133,
+      "path": "finemath-4plus/train-00008-of-00064.parquet",
+      "sequence": 23,
+      "sha256": "39224cfcc751afbc04671bc9491266a90d58c30c27fd58f93551db8766ca96c6",
+      "source": "finemath"
+    },
+    {
+      "batch": 1,
+      "bytes": 1175277891,
+      "path": "cosmopedia-v2/train-00022-of-00104.parquet",
+      "sequence": 24,
+      "sha256": "744015e5374e954b221f8ff0d99471c624544313b12e582f223b4934c2d248bd",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 1178240074,
+      "path": "cosmopedia-v2/train-00023-of-00104.parquet",
+      "sequence": 25,
+      "sha256": "e0f47df3a7cada2d2dcebfbc8b556edc1faec138f04d697040a592d299028b81",
+      "source": "cosmopedia"
+    },
+    {
+      "batch": 1,
+      "bytes": 288931475,
+      "path": "finemath-4plus/train-00009-of-00064.parquet",
+      "sequence": 26,
+      "sha256": "5e2b8db60462621ac0e45dd9865103f685915b09eee577f505b35f95ff601ea5",
+      "source": "finemath"
+    }
+  ],
+  "combined_raw_cap_bytes": 125000000000,
+  "cumulative_new_source_raw_bytes": 31099995355,
+  "pilot_raw_cap_bytes": 5000000000,
+  "later_batch_raw_cap_bytes": 30000000000,
+  "free_space_reserve_gib": 100,
+  "tokenizer_sha256": "df1d8d5ec5d091b460562ffd545e4a5e91d17d4a0db7ebe733be34ed374377bd",
+  "benchmark_documents_sha256": "b801c9497e40059d5a0c5403cc713d411571d406550defbd21154dd6fb7db5ff"
+}
