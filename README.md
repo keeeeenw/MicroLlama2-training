@@ -2,6 +2,8 @@
 
 Thank you for the support for [MicroLlama V1](https://huggingface.co/keeeeenw/MicroLlama). This repository contains the **NVIDIA training and data implementation** for the **387,898,305-parameter Qwen3/Engram MicroLlama V2**.
 
+![A tiny MicroLlama climbing a staircase of books in a warmly lit miniature library](microllama-v2.png)
+
 The NVIDIA run completed **50,000,054,177 valid next-token targets** at step **381,824**. My original compute goal was $500; **I spent $880 on compute**, excluding storage, electricity and personal hardware. This is an author-reported expense, not an audited all-inclusive cost.
 
 - **Run inference:** [MicroLlama2-base](https://huggingface.co/keeeeenw/MicroLlama2-base).
