@@ -1,18 +1,21 @@
 {
   "status": "PASS",
-  "scope": "Curated clean-history NVIDIA training release; not the original operational repository",
+  "scope": "Curated NVIDIA training release with experimental Apple Silicon MLX continuation; operational history remains private",
   "gitleaks_version": "8.30.1",
   "confirmed_credentials_detected": 0,
   "gitleaks_allowlist": "Exactly one known-public tokenizer SHA-256; all default rules remain enabled",
   "personal_paths_and_original_server_tracking_identifiers_detected": 0,
-  "tests": "219 passed, 6 skipped in 35.75s",
-  "runtime_test_platform": "macOS CPU; PyTorch 2.9.1 / Transformers 4.57.6 / W&B 0.19.5",
+  "tests": "337 passed, 6 skipped, 40 GPU/MPS cases deselected in 36.78s",
+  "runtime_test_platform": "macOS CPU; PyTorch 2.9.1 / Transformers 4.57.6 / MLX 0.32.4; legacy CUDA evaluator tests use their pinned W&B 0.19.5",
   "cuda_qualification_performed_for_this_export": false,
   "dataset_downloaded_for_this_export": false,
   "full_50b_replay_performed_for_this_export": false,
   "historical_receipts_and_private_history_included": false,
   "public_author_metadata": "Zixiao Ken Wang; public upstream citations retained",
-  "documentation": "Only first 10B automated; actual three-stage history and strict restore requirements documented",
+  "documentation": "Brief main README notice links to detailed Mac guide, completed checks, original old7 results and remaining validation",
   "scanner_limit": "No scan can guarantee absence of every form of private information",
-  "files_before_review_json": 127
+  "mac_validation_status": "validation in progress",
+  "mac_gpu_qualification_performed_for_this_export": false,
+  "mac_results": "One completed original old7 evaluation at 50.167B; long-run convergence and full public replay unfinished",
+  "mac_current_sdk_cpu_tests": "128 passed, 255 deselected in 8.64s; W&B 0.22.3; GPU/MPS tests excluded"
 }

@@ -13,6 +13,8 @@ The NVIDIA run completed **50,000,054,177 valid next-token targets** at step **3
 
 This is **not** the earlier ~500M Llama-3.2/SlimPajama experiment in [MicroLlama2-checkpoints](https://huggingface.co/keeeeenw/MicroLlama2-checkpoints).
 
+**Mac/MLX continuation: validation in progress.** See the [Mac training guide](docs/mac-training.md) for the implementation, setup, measurements and current limits.
+
 ## Completed milestones
 
 | Milestone | Valid targets | Status / seven-task mean |
@@ -65,7 +67,7 @@ A new first-stage run uses the selected architecture from initialization. The pu
 
 Training deliberately pins **Transformers 4.57.6**. Inference in `MicroLlama2-base` uses its separately tested modern adapter. Do not upgrade the training environment to Transformers 5 merely to match inference.
 
-CPU tests and dry-run entry points are included. A full new CUDA qualification or complete 50B replay was **not** run during release preparation. Mac/MLX continuation, private recovery capsules, provider control and operational monitoring histories are outside this release.
+CPU tests and dry-run entry points are included. A full new CUDA qualification or complete 50B replay was **not** run during release preparation. Private recovery capsules, provider control and operational monitoring histories are outside this release.
 
 ## Code map
 

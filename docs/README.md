@@ -5,3 +5,5 @@
 3. [Evaluation](evaluation.md): milestone tables and the two distinct evaluation protocols.
 
 Start with the root README's offline `--plan`. Do not treat a setup smoke test or the first-10B convenience wrapper as a new reproduction of the complete published run.
+
+4. [Mac training](mac-training.md): Apple Silicon MLX continuation; **validation in progress**.

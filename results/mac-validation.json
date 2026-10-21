@@ -1,0 +1,100 @@
+{
+  "status": "validation in progress",
+  "scope": "One full old seven-task evaluation; ongoing Mac continuation is not complete",
+  "step": 383099,
+  "valid_training_targets": 50167011231,
+  "protocol": "original-old7-cpu-float32-zero-shot",
+  "context": 8192,
+  "prefix_token_id": 1,
+  "add_bos_token": false,
+  "chat_template": false,
+  "tasks": {
+    "hellaswag": {
+      "score": 0.4320852419836686,
+      "percent": 43.20852419836686,
+      "correct": 4339,
+      "count": 10042,
+      "stderr_pp": 0.49435372423443813,
+      "metric": "acc_norm",
+      "delta_vs_v2_49_237b_pp": -0.6771559450308717
+    },
+    "openbookqa": {
+      "score": 0.328,
+      "percent": 32.800000000000004,
+      "correct": 164,
+      "count": 500,
+      "stderr_pp": 2.1017027165175466,
+      "metric": "acc_norm",
+      "delta_vs_v2_49_237b_pp": 0.40000000000000036
+    },
+    "winogrande": {
+      "score": 0.5288082083662194,
+      "percent": 52.88082083662194,
+      "correct": 670,
+      "count": 1267,
+      "stderr_pp": 1.4029141615909664,
+      "metric": "acc",
+      "delta_vs_v2_49_237b_pp": -0.5524861878453025
+    },
+    "arc_easy": {
+      "score": 0.5538720538720538,
+      "percent": 55.387205387205384,
+      "correct": 1316,
+      "count": 2376,
+      "stderr_pp": 1.0200057828764997,
+      "metric": "acc_norm",
+      "delta_vs_v2_49_237b_pp": 0.462962962962965
+    },
+    "arc_challenge": {
+      "score": 0.30631399317406144,
+      "percent": 30.631399317406142,
+      "correct": 359,
+      "count": 1172,
+      "stderr_pp": 1.3470584417276554,
+      "metric": "acc_norm",
+      "delta_vs_v2_49_237b_pp": 0.5119453924914696
+    },
+    "boolq": {
+      "score": 0.6134556574923548,
+      "percent": 61.345565749235476,
+      "correct": 2006,
+      "count": 3270,
+      "stderr_pp": 0.8516943934341775,
+      "metric": "acc",
+      "delta_vs_v2_49_237b_pp": 1.039755351681959
+    },
+    "piqa": {
+      "score": 0.6730141458106638,
+      "percent": 67.30141458106638,
+      "correct": 1237,
+      "count": 1838,
+      "stderr_pp": 1.0945157126978309,
+      "metric": "acc_norm",
+      "delta_vs_v2_49_237b_pp": -0.16322089227420733
+    }
+  },
+  "mean_percent": 49.079275724271746,
+  "previous_v2_49_237b_mean_percent": 48.93330419827374,
+  "mean_delta_pp": 0.145971525998001,
+  "result_sha256": {
+    "hellaswag": "fd0f798c82b85ed16f57a8dc755202c7ff69f8996928a4e69ec86954a5c8591a",
+    "openbookqa": "0fbeb96b3798913a0240855b68ac1ac82818dc058454e7688f0e4ba115667793",
+    "winogrande": "c527a4a8f186b34e3dfa742ffaba084fd5aaa4ad027ac1f58168589088e11ec2",
+    "arc_easy": "d3a8184a683b05f68ae1ce25647dd05bcce65e2655f40b959d8da99841a6cf2b",
+    "arc_challenge": "c5cc6c6c0725f0f7d67cc248f32e79225f046680ee90aaf5fbd9bf599baf2fa6",
+    "boolq": "c14ebc14d3a9bdbd11d4e64d2db65846dbfb291a076998ba648ffdf529698ffc",
+    "piqa": "962d7f6da497aa5a9985518fc265b5f64fd7908b4a627c65e052accf6d7ebaf9"
+  },
+  "checkpoint_manifest_sha256": "9211f088e92066e045e1b55f963514285b9f468a8ecbc63468ac35f3d9f8451e",
+  "verification": {
+    "full_counts_and_per_example_scores": true,
+    "standard_errors": true,
+    "checkpoint_payload_hashes": true,
+    "frozen_source_hashes": true
+  },
+  "limits": [
+    "Different token exposures and CPU platforms; not an isolated architecture/backend comparison.",
+    "Published code requires fresh hardware/source-bound qualification; private operational receipts are not reusable.",
+    "Long-run convergence and broad task validation remain in progress."
+  ]
+}

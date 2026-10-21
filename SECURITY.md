@@ -1,6 +1,6 @@
 # Privacy and publication scope
 
-This is a curated training-code release with a fresh Git history. Private operational notes, raw receipts, account/run identities, machine/IP/SSH details, provider-control code, local recovery packages, credentials and unpublished Mac continuation work are intentionally excluded. Public model/data identifiers, source hashes, published author name and model citations are retained.
+This is a curated training-code release with a fresh Git history. Private operational notes, raw receipts, account/run identities, machine/IP/SSH details, provider-control code, local recovery packages, credentials are intentionally excluded. Mac continuation source is included with validation in progress; local qualification receipts and live tracking identities remain excluded. Public model/data identifiers, source hashes, published author name and model citations are retained.
 
 Keep the original operational repository private. Deleting a file in a newer commit does not remove it from that repository's earlier commits.
 
